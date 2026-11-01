@@ -50,8 +50,8 @@
 	output: init failed
 	`kubectl describe pod web-deployment-7b64654db6-fghxh -n webapp`
 	The describe was too big so I will put the image.
-	![logs of pods](images/logs_image1.png)
-	![logs of pods](images/logs_image2.png)
+![logs of pods](images/logs_image1.png)
+![logs of pods](images/logs_image2.png)
 
 ## watching creating new pods (but they can't be up because error in init-done):
 	`kubectl rollout status deploy/web-deployment -n webapp`
